@@ -18,8 +18,8 @@ public class GameManager : MonoBehaviour
 
     [Header("喇叭")]
     public AudioSource aud;
-    [Header("木頭滑動音效")]
-    public AudioClip soundWoodMove;
+   // [Header("椅子滑動音效")]
+   // public AudioClip soundWoodMove;
     [Header("敲門音效")]
     public AudioClip countknock;
 
@@ -57,7 +57,10 @@ public class GameManager : MonoBehaviour
     }
 
    // public IEnumerator MoveChair()
-
+   // {
+       // chair.eulerAngles += new Vector3(0, 50f, 0);
+       // yield return new WaitForSeconds(0.01f);
+  //  }
 
     //新進度程式未完成所以先打這
     //喇叭.播放一次音效(音效.音量)
